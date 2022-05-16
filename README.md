@@ -13,7 +13,7 @@ Desenvolvido em Laravel 9 e php 8.1.5
 <h3>Caso esteja usando Docker:</h3>
 2º - Iniciar conteiner docker:
 
-"doker-compose up -d"
+"docker-compose up -d"
 
 3º - Abrir terminal do docker
 
@@ -22,7 +22,9 @@ Desenvolvido em Laravel 9 e php 8.1.5
 4º - instaar dependencias 
 
 "composer install"
+
 "npm install"
+
 "npm run dev"
 
 5º - copiar .env
@@ -36,7 +38,9 @@ O projeto vai abrir no link http://localhost:8989/
 2º - instaar dependencias 
 
 "composer install"
+
 "npm install"
+
 "npm run dev"
 
 3º - configurar .env de acordo com seu ambiente de deenvolvimento 
@@ -45,3 +49,14 @@ O projeto vai abrir no link http://localhost:8989/
 
 "php artisan serve" 
 
+<h2>Ao abrir o projeto </h2>
+
+Na tela de home criar uma nova conta em "Register"
+
+Ao entrar no sistema, a lista de universidades estará disponívem na aba "universities" do sidebar.
+
+No cato superior direito, ao clicar no nome do usuário é possível, fazer editar o perfil, visualizar as inscrições do usuário e fazer logout.
+
+
+
+Para o desevolvimento do projeto foi utilizado o template gratuíto Argon Dashboard Laravel, disponível em https://argon-dashboard-laravel.creative-tim.com/docs/getting-started/overview.html
