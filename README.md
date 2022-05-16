@@ -58,5 +58,13 @@ Ao entrar no sistema, a lista de universidades estará disponívem na aba "unive
 No cato superior direito, ao clicar no nome do usuário é possível, fazer editar o perfil, visualizar as inscrições do usuário e fazer logout.
 
 
+<h2>API </h2>
+
+Para consutar api usar rota:
+
+http://localhost:8989/api/subscriptions?email=exemplo@exe.com&password=password
+
+obs.: Substituir pelas credenciais do seu usuário
+
 
 Para o desevolvimento do projeto foi utilizado o template gratuíto Argon Dashboard Laravel, disponível em https://argon-dashboard-laravel.creative-tim.com/docs/getting-started/overview.html
